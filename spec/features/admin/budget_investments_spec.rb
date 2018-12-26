@@ -7,6 +7,10 @@ feature 'Admin budget investments' do
     create(:administrator, user: create(:user, username: 'Ana', email: 'ana@admins.org'))
   end
 
+  it_behaves_like "admin_milestoneable",
+                  :budget_investment,
+                  "admin_budget_budget_investment_path"
+
   background do
     @admin = create(:administrator)
     login_as(@admin.user)
@@ -802,7 +806,28 @@ feature 'Admin budget investments' do
       end
     end
 
-    pending "Do not display valuators of an assigned group"
+    scenario "Do not display valuators of an assigned group" do
+      budget_investment = create(:budget_investment)
+
+      health_group = create(:valuator_group, name: "Health")
+      user = create(:user, username: 'Valentina', email: 'v1@valuators.org')
+      create(:valuator, user: user, valuator_group: health_group)
+
+      visit admin_budget_budget_investment_path(budget_investment.budget, budget_investment)
+      click_link 'Edit classification'
+
+      check "budget_investment_valuator_group_ids_#{health_group.id}"
+
+      click_button 'Update'
+
+      expect(page).to have_content 'Investment project updated succesfully.'
+
+      within('#assigned_valuator_groups') { expect(page).to have_content('Health') }
+      within('#assigned_valuators') do
+        expect(page).to have_content('Undefined')
+        expect(page).not_to have_content('Valentina (v1@valuators.org)')
+      end
+    end
 
     scenario "Adds existing valuation tags", :js do
       budget_investment1 = create(:budget_investment)
