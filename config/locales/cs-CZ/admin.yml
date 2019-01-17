@@ -1075,36 +1075,36 @@ cs-CZ:
       setting_name: Setting
       setting_status: Status
       setting_value: Value
-      no_description: "No description"
+      no_description: "Bez popisu"
     shared:
       booths_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search booth by name
       poll_officers_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search poll officers
       poll_questions_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search poll questions
       proposal_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search proposals by title, code, description or question
       spending_proposal_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search spending proposals by title or description
       user_search:
-        button: Search
+        button: Vyhledat
         placeholder: Search user by name or email
       search_results: "Search results"
       no_search_results: "No results found."
-      actions: Actions
-      title: Title
-      description: Description
-      image: Image
-      show_image: Show image
-      moderated_content: "Check the content moderated by the moderators, and confirm if the moderation has been done correctly."
-      view: View
-      proposal: Proposal
+      actions: Akce
+      title: Nadpis
+      description: Popis
+      image: Obrázek
+      show_image: Zobrazit obrázek
+      moderated_content: "Zkontrolujte obsah, který moderují moderátoři a ověřte, zda je moderování provedeno správně."
+      view: Zobrazit
+      proposal: Návrhy
       author: Author
       content: Content
       created_at: Created at
