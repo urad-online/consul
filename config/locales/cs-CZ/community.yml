@@ -1,0 +1,60 @@
+cs-CZ:
+  community:
+    sidebar:
+      title: Připojte se ke komunitě
+      description:
+        proposal: Komunikujte s dalšími členy ve skupině tohoto návrhu.
+        investment: Komunikujte s dalšími členy ve skupině této investice.
+      button_to_access: Diskusní fórum skupiny
+    show:
+      title:
+        proposal: Proposal community
+        investment: Budget Investment community
+      description:
+        proposal: Participate in the community of this proposal. An active community can help to improve the content of the proposal and boost its dissemination to get more support.
+        investment: Participate in the community of this budget investment. An active community can help to improve the content of the budget investment and boost its dissemination to get more support.
+      create_first_community_topic:
+        first_theme_not_logged_in: No issue available, participate creating the first one.
+        first_theme: Vytvořte první téma této skupiny
+        sub_first_theme: "Pro vytvoření téma se musíte %{sign_in} nebo %{sign_up}."
+        sign_in: "přihlásit"
+        sign_up: "registrovat"
+      tab:
+        participants: Účastníci
+      sidebar:
+        participate: Zapojit se
+        new_topic: Vytvořit téma
+      topic:
+        edit: Upravit téma
+        destroy: Smazat téma
+        comments:
+          one: 1 komentář
+          other: "%{count} komentářů"
+          zero: Bez komentářů
+      author: Autor
+      back: Zpět na %{community} %{proposal}
+    topic:
+      create: Vytvořit téma
+      edit: Upravit téma
+      form:
+        topic_title: Název
+        topic_text: Úvodní text
+        new:
+          submit_button: Vytvořit téma
+        edit:
+          submit_button: Upravit téma
+        create:
+          submit_button: Vytvořit téma
+        update:
+          submit_button: Upravit téma
+      show:
+        tab:
+          comments_tab: Komentáře
+      sidebar:
+        recommendations_title: Doporučení k vytváření témat
+        recommendation_one: Nepište název tématu nebo celé věty velkými písmeny. Na internetu je to považováno  za výkřiky. A nikdo nechce, aby na něho někdo křičel.
+        recommendation_two: Any topic or comment that implies an illegal action will be eliminated, also those that intend to sabotage the spaces of the subject, everything else is allowed.
+        recommendation_three: Užijte si tento prostor, myšlenky, které ho vyplňují, jsou i ty vaše.
+  topics:
+    show:
+      login_to_comment: You must %{signin} or %{signup} to leave a comment.

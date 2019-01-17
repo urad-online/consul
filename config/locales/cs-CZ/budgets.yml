@@ -1,0 +1,191 @@
+cs-CZ:
+  budgets:
+    ballots:
+      show:
+        title: Your ballot
+        amount_spent: Amount spent
+        remaining: "You still have <span>%{amount}</span> to invest."
+        no_balloted_group_yet: "You have not voted on this group yet, go vote!"
+        remove: Remove vote
+        voted_html:
+          one: "You have voted <span>one</span> investment."
+          other: "You have voted <span>%{count}</span> investments."
+        voted_info_html: "You can change your vote at any time until the close of this phase.<br> No need to spend all the money available."
+        zero: You have not voted any investment project.
+      reasons_for_not_balloting:
+        not_logged_in: You must %{signin} or %{signup} to continue.
+        not_verified: Only verified users can vote on investments; %{verify_account}.
+        organization: Organizations are not permitted to vote
+        not_selected: Unselected investment projects can not be supported
+        not_enough_money_html: "You have already assigned the available budget.<br><small>Remember you can %{change_ballot} at any time</small>"
+        no_ballots_allowed: Selecting phase is closed
+        different_heading_assigned_html: "You have already voted a different heading: %{heading_link}"
+        change_ballot: change your votes
+    groups:
+      show:
+        title: Select an option
+        unfeasible_title: Unfeasible investments
+        unfeasible: See unfeasible investments
+        unselected_title: Investments not selected for balloting phase
+        unselected: See investments not selected for balloting phase
+    phase:
+      drafting: Draft (Not visible to the public)
+      informing: Informace
+      accepting: Přijímání projektů
+      reviewing: Posuzování projektů
+      selecting: Výběr projektů
+      valuating: Oceňování projektů
+      publishing_prices: Zveřejnění cen projektů
+      balloting: Hlasování o projektech
+      reviewing_ballots: Přezkoumání hlasování
+      finished: Dokončený rozpočet
+    index:
+      title: Participativní rozpočty
+      empty_budgets: Neexistují žádné rozpočty.
+      section_header:
+        icon_alt: Ikona participativního rozpočtu
+        title: Participativní rozpočty
+        help: Nápověda pro participativní rozpočet
+        all_phases: Zobrazit všechny fáze
+      all_phases: Fáze participativního rozpočtu
+      map: Lokalizace návrhů pro participativní rozpočet
+      investment_proyects: List of all investment projects
+      unfeasible_investment_proyects: Seznam všech nerealizovatelných investičních projektů
+      not_selected_investment_proyects: List of all investment projects not selected for balloting
+      finished_budgets: Ukončené participativní rozpočty
+      see_results: Zobrazit výsledky
+      section_footer:
+        title: Nápověda pro paticipativní rozpočty
+        description: Prostřednictvím participativních rozpočtů se občané rozhodnou, které projekty budou zahrnuty do rozpočtu.
+      milestones: Milníky
+    investments:
+      form:
+        tag_category_label: "Kategorie"
+        tags_instructions: "Tag this proposal. You can choose from proposed categories or add your own"
+        tags_label: Štítky
+        tags_placeholder: "Zadejte štítky, které chcete používat, oddělené čárkami (',')"
+        map_location: "Lokalizace v mapě"
+        map_location_instructions: "Nalezněte mapu lokality a umístěte kliknutím značku."
+        map_remove_marker: "Odebrat značku"
+        location: "Doplňující informace k lokalitě"
+        map_skip_checkbox: "This investment doesn't have a concrete location or I'm not aware of it."
+      index:
+        title: Participatory budgeting
+        unfeasible: Unfeasible investment projects
+        unfeasible_text: "The investments must meet a number of criteria (legality, concreteness, be the responsibility of the city, not exceed the limit of the budget) to be declared viable and reach the stage of final vote. All investments don't meet these criteria are marked as unfeasible and published in the following list, along with its report of infeasibility."
+        by_heading: "Investment projects with scope: %{heading}"
+        search_form:
+          button: Search
+          placeholder: Search investment projects...
+          title: Search
+        search_results_html:
+          one: " containing the term <strong>'%{search_term}'</strong>"
+          other: " containing the term <strong>'%{search_term}'</strong>"
+        sidebar:
+          my_ballot: My ballot
+          voted_html:
+            one: "<strong>You voted one proposal with a cost of %{amount_spent}</strong>"
+            other: "<strong>You voted %{count} proposals with a cost of %{amount_spent}</strong>"
+          voted_info: You can %{link} at any time until the close of this phase. No need to spend all the money available.
+          voted_info_link: change your vote
+          different_heading_assigned_html: "You have active votes in another heading: %{heading_link}"
+          change_ballot: "If your change your mind you can remove your votes in %{check_ballot} and start again."
+          check_ballot_link: "check my ballot"
+          zero: You have not voted any investment project in this group.
+          verified_only: "To create a new budget investment %{verify}."
+          verify_account: "verify your account"
+          create: "Přidat investiční projekt"
+          not_logged_in: "To create a new budget investment you must %{sign_in} or %{sign_up}."
+          sign_in: "přihlásit se"
+          sign_up: "odhlásit se"
+          by_feasibility: By feasibility
+          feasible: Feasible projects
+          unfeasible: Unfeasible projects
+        orders:
+          random: náhodné pořadí
+          confidence_score: highest rated
+          price: by price
+      show:
+        author_deleted: User deleted
+        price_explanation: Price explanation
+        unfeasibility_explanation: Unfeasibility explanation
+        code_html: 'Investment project code: <strong>%{code}</strong>'
+        location_html: 'Location: <strong>%{location}</strong>'
+        organization_name_html: 'Proposed on behalf of: <strong>%{name}</strong>'
+        share: Share
+        title: Investment project
+        supports: Supports
+        votes: Votes
+        price: Price
+        comments_tab: Komentáře
+        milestones_tab: Milníky
+        no_milestones: Don't have defined milestones
+        milestone_publication_date: "Published %{publication_date}"
+        milestone_status_changed: Investment status changed to
+        author: Author
+        project_unfeasible_html: 'This investment project <strong>has been marked as not feasible</strong> and will not go to balloting phase.'
+        project_selected_html: 'This investment project <strong>has been selected</strong> for balloting phase.'
+        project_winner: 'Winning investment project'
+        project_not_selected_html: 'This investment project <strong>has not been selected</strong> for balloting phase.'
+      wrong_price_format: Only integer numbers
+      investment:
+        add: Vote
+        already_added: You have already added this investment project
+        already_supported: You have already supported this investment project. Share it!
+        support_title: Support this project
+        confirm_group:
+          one: "You can only support investments in %{count} district. If you continue you cannot change the election of your district. Are you sure?"
+          other: "You can only support investments in %{count} district. If you continue you cannot change the election of your district. Are you sure?"
+        supports:
+          one: 1 support
+          other: "%{count} supports"
+          zero: No supports
+        give_support: Support
+      header:
+        check_ballot: Kontrola mého hlasování
+        different_heading_assigned_html: "You have active votes in another heading: %{heading_link}"
+        change_ballot: "If your change your mind you can remove your votes in %{check_ballot} and start again."
+        check_ballot_link: "kontrola mého hlasování"
+        price: "Tato položka má rozpočet"
+    progress_bar:
+      assigned: "Přidělili jste: "
+      available: "Dostupný rozpočet: "
+    show:
+      group: Skupina
+      phase: Aktuální fáze
+      unfeasible_title: Nerealizovatelné projekty
+      unfeasible: Podívejte se na nerealizovatelné investice
+      unselected_title: Projekty, které nebyly vybrány pro fázi hlasování
+      unselected: Zobrazit projekty, které nebyly vybrány pro fázi hlasování
+      see_results: Zobrazit výsledky
+    results:
+      link: Výsledky
+      page_title: "%{budget} - Results"
+      heading: "Výsledky participativního rozpočtu"
+      heading_selection_title: "Podle městských částí"
+      spending_proposal: Název návrhu
+      ballot_lines_count: Hlasů
+      hide_discarded_link: Skrýt vyřazené
+      show_all_link: Zobrazit vše
+      price: Cena
+      amount_available: Rozpočet k dispozici
+      accepted: "Accepted spending proposal: "
+      discarded: "Discarded spending proposal: "
+      incompatibles: Nekompatibilní
+      investment_proyects: Seznam všech investičních projektů
+      unfeasible_investment_proyects: Seznam všech nerealizovatelných investičních projektů
+      not_selected_investment_proyects: Seznam všech nerealizovatelných investičních projektů odmítnutých pro hlasování
+    executions:
+      link: "Milníky"
+      page_title: "%{budget} - Milníky"
+      heading: "Participatory Milníky rozpočtu"
+      heading_selection_title: "Podle městských částí"
+      no_winner_investments: "No winner investments in this state"
+      filters:
+        label: "Project's current state"
+        all: "Všechny (%{count})"
+    phases:
+      errors:
+        dates_range_invalid: "Start date can't be equal or later than End date"
+        prev_phase_dates_invalid: "Start date must be later than the start date of the previous enabled phase (%{phase_name})"
+        next_phase_dates_invalid: "End date must be earlier than the end date of the next enabled phase (%{phase_name})"
