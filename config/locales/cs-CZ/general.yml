@@ -222,7 +222,7 @@ cs-CZ:
       locale: 'Jazyk:'
       logo: CONSUL logo
       management: Management
-      moderation: Moderation
+      moderation: Moderování
       valuation: Valuation
       officing: Polling officers
       help: Nápověda
@@ -558,15 +558,15 @@ cs-CZ:
       search: 'Filtr'
       title: 'Pokročilé vyhledávání'
       to: 'To'
-    delete: Delete
+    delete: Smazat
     author_info:
-      author_deleted: User deleted
+      author_deleted: Uživatel byl smazán
     back: Jít zpět
     check: Vybrat
     check_all: Vše
     check_none: Žádné
     collective: Collective
-    flag: Flag as inappropriate
+    flag: Označit jako nevhodné
     follow: "Sledování"
     following: "Sledované"
     follow_entity: "Sledovat %{entity}"

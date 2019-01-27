@@ -42,9 +42,9 @@ cs-CZ:
           flags: Most flagged
         title: Debaty
     header:
-      title: Moderation
+      title: Moderování
     menu:
-      flagged_comments: Comments
+      flagged_comments: Komentáře
       flagged_debates: Debaty
       flagged_investments: Budget investments
       proposals: Proposals
