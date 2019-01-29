@@ -56,6 +56,7 @@ bin/rspec
 
 
 
+
 You can use the default admin user from the seeds file:
 
  **user:** admin@consul.dev
